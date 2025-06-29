@@ -67,8 +67,9 @@ Multiple-Remote-Control-System/
 │   └── admin.py
 ├── client/
 │   └── client.py
-├── tools/
-│   └── [Additional utility scripts]
+├── sources/
+│   └── tools
+│       └──[ Scripts ]
 ├── README.md
 └── requirements.txt
 ```
