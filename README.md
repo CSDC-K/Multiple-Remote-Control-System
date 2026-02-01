@@ -104,9 +104,13 @@ Multiple-Remote-Control-System/
 
    Use the admin interface to send messages, transfer files, share screens, or execute commands on connected client machines.
 
-## 💻 Screenshots
+## ✨ Technical Key Features
 
-*Note: Include screenshots of the admin interface and client application here to provide visual context.*
+* **⚡ Low-Level System Hooking:** Implemented Windows API hooks (`SetWindowsHookExW`) to manage system-level keyboard events and security lockdowns.
+* **📡 Distributed Network Management:** Custom-built socket architecture for 1-to-N real-time communication and command execution.
+* **🖥️ High-Frequency Screen Streaming:** Real-time visual feedback using frame-buffer capturing and optimized network transmission.
+* **🛡️ Privilege & Task Control:** Integrated remote task management and process-level security overrides (Bypass/Lock mechanisms).
+* **📁 Bi-directional File Transfer:** Robust file streaming protocol between centralized Admin node and distributed Client nodes.
 
 ## 📄 License
 
